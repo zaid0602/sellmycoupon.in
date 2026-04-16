@@ -1,0 +1,105 @@
+.add-coupon-page {
+  padding-top: 96px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.add-coupon-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.add-coupon-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.back-button {
+  padding: 8px;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #f3f4f6;
+}
+
+.back-icon {
+  width: 24px;
+  height: 24px;
+  color: #374151;
+}
+
+.add-coupon-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.add-coupon-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.form-input,
+.form-textarea {
+  padding: 12px 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+  border-color: #000000;
+}
+
+.form-textarea {
+  resize: none;
+  min-height: 96px;
+}
+
+.submit-button {
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  margin-top: 24px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.submit-button:active {
+  transform: scale(0.98);
+}
